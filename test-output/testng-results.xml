@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewSuite" duration-ms="139858" started-at="2018-10-01T16:24:55Z" finished-at="2018-10-01T16:27:14Z">
+    <groups>
+    </groups>
+    <test name="TestAutomation" duration-ms="139858" started-at="2018-10-01T16:24:55Z" finished-at="2018-10-01T16:27:14Z">
+      <class name="com.facebook.tests.FacebookSearchTest">
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:com.facebook.tests.FacebookSearchTest@6b81ce95]" name="initDriver" is-config="true" duration-ms="3491" started-at="2018-10-01T19:25:12Z" finished-at="2018-10-01T19:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.facebook.tests.FacebookSearchTest@6b81ce95]" name="login" is-config="true" duration-ms="9680" started-at="2018-10-01T19:25:15Z" finished-at="2018-10-01T19:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testSearch(java.util.HashMap)[pri:0, instance:com.facebook.tests.FacebookSearchTest@6b81ce95]" name="testSearch" duration-ms="52286" started-at="2018-10-01T19:25:25Z" description="Search test in Facebook." data-provider="testData" finished-at="2018-10-01T19:26:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchedName=Paul, expectedResult=true, dataSetEnabled=TRUE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.tests.FacebookSearchTest@6b81ce95]" name="tearDown" is-config="true" duration-ms="1514" started-at="2018-10-01T19:26:17Z" finished-at="2018-10-01T19:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:com.facebook.tests.FacebookSearchTest@6b81ce95]" name="initDriver" is-config="true" duration-ms="3553" started-at="2018-10-01T19:26:19Z" finished-at="2018-10-01T19:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.facebook.tests.FacebookSearchTest@6b81ce95]" name="login" is-config="true" duration-ms="8473" started-at="2018-10-01T19:26:22Z" finished-at="2018-10-01T19:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testSearch(java.util.HashMap)[pri:0, instance:com.facebook.tests.FacebookSearchTest@6b81ce95]" name="testSearch" duration-ms="42053" started-at="2018-10-01T19:26:31Z" description="Search test in Facebook." data-provider="testData" finished-at="2018-10-01T19:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchedName=negativeSearchTerm, expectedResult=false, dataSetEnabled=TRUE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.tests.FacebookSearchTest@6b81ce95]" name="tearDown" is-config="true" duration-ms="1712" started-at="2018-10-01T19:27:13Z" finished-at="2018-10-01T19:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.facebook.tests.FacebookSearchTest -->
+      <class name="com.facebook.tests.FacebookHomePageTest">
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:com.facebook.tests.FacebookHomePageTest@6572421]" name="initDriver" is-config="true" duration-ms="4276" started-at="2018-10-01T19:24:55Z" finished-at="2018-10-01T19:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.facebook.tests.FacebookHomePageTest@6572421]" name="login" is-config="true" duration-ms="6748" started-at="2018-10-01T19:24:59Z" finished-at="2018-10-01T19:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:com.facebook.tests.FacebookHomePageTest@6572421]" name="testHomePage" duration-ms="3997" started-at="2018-10-01T19:25:06Z" description="Test that FB user can navigate to the Home Page" finished-at="2018-10-01T19:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.tests.FacebookHomePageTest@6572421]" name="tearDown" is-config="true" duration-ms="1948" started-at="2018-10-01T19:25:10Z" finished-at="2018-10-01T19:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.facebook.tests.FacebookHomePageTest -->
+    </test> <!-- TestAutomation -->
+  </suite> <!-- NewSuite -->
+</testng-results>

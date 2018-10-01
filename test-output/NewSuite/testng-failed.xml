@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NewSuite]">
+  <listeners>
+    <listener class-name="listener.TestListener"/>
+    <listener class-name="listener.AnnotationTransformer"/>
+  </listeners>
+  <test name="TestAutomation(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="project" value="facebook"/>
+    <classes>
+      <class name="com.facebook.tests.FacebookSearchTest">
+        <methods>
+          <include name="testSearch" invocation-numbers="0 0"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.facebook.tests.FacebookSearchTest -->
+      <class name="com.facebook.tests.FacebookHomePageTest">
+        <methods>
+          <include name="testHomePage"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.facebook.tests.FacebookHomePageTest -->
+    </classes>
+  </test> <!-- TestAutomation(failed) -->
+</suite> <!-- Failed suite [NewSuite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="NewSuite">
+	<listeners>
+		<listener class-name="listener.TestListener"></listener>
+		<listener class-name="listener.AnnotationTransformer"></listener>
+	</listeners>
+	<test name="TestAutomation">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="project" value="facebook"></parameter>
+		<!-- <classes>
+			<class name="com.facebook.tests.FacebookSearchTest" />
+		</classes> -->
+		<packages> <package name="com.facebook.tests"></package> </packages>
+	</test>
+</suite>
