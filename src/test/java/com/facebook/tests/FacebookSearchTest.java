@@ -18,5 +18,7 @@ public class FacebookSearchTest extends FacebookLoginTest{
 		steps.searchForPeople(hashMap.get(FBUtilConstants.SEARCHED_NAME));
 		steps.verifySearchResults(hashMap.get(FBUtilConstants.SEARCHED_NAME), 
 								  hashMap.get(FBUtilConstants.EXPECTED_RESULT));
+		
+		//Added a comment here!
 	}
 }
