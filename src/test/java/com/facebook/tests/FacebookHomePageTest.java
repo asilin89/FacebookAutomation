@@ -9,7 +9,6 @@ public class FacebookHomePageTest extends FacebookLoginTest{
 	@Test(description="Test that FB user can navigate to the Home Page")
 	public void testHomePage()
 	{
-		//Small change
 		ExtentTestManager.getTest().setDescription("Test that FB user can navigate to the Home Page");
 		steps.navigateToHomePage();
 	}
