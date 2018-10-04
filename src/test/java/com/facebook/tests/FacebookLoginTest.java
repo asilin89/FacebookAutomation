@@ -9,6 +9,7 @@ public class FacebookLoginTest extends BaseTest{
 	@BeforeMethod(alwaysRun = true)
 	public void login()
 	{
+		//login to Facebook app.
 		steps.login();
 	}
 }
