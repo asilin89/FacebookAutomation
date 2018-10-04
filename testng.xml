@@ -12,7 +12,6 @@
 		<!-- <classes>
 			<class name="com.facebook.tests.FacebookSearchTest" />
 		</classes> -->
-		<!-- -->
 		<packages> <package name="com.facebook.tests"></package> </packages>
 	</test>
 </suite>
