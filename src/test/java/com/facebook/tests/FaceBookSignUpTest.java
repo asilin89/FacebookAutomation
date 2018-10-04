@@ -14,6 +14,7 @@ public class FaceBookSignUpTest extends BaseTest{
 	@BeforeMethod(alwaysRun = true)
 	public void run()
 	{
+		//Hello
 		steps.openPageAndSwitchToEnglish();
 	}
 }
