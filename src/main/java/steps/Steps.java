@@ -27,6 +27,12 @@ public class Steps {
 		registerPage.swithToEnglish();
 	}
 	
+	public void clickOnTermsAndVerifyPageTitle(String title)
+	{
+		FacebookRegisterPage registerPage = new FacebookRegisterPage(driver);
+		registerPage.clickOnTermsOfUseAndVerifyPageTitle(title);
+	}
+	
 	public void login()
 	{
 		FacebookLoginPage loginPage = new FacebookLoginPage(driver);
